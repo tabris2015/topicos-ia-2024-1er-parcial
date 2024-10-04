@@ -1,0 +1,15 @@
+[project]
+name = "topicos-ia-2024-1er-parcial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "jupyter>=1.1.1",
+    "pydantic-settings>=2.5.2",
+    "shapely>=2.0.6",
+    "torch>=2.4.1",
+    "torchvision>=0.19.1",
+    "ultralytics>=8.3.4",
+]
